@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/style.min.css?_v=20231014181024">
+    <title>Главная</title>
+	 
+</head>
+  <body>
+	<div class="backdrop">
+	<form class="form --modal-form modal__form-js">
+		<h2 class="form__title">Book a tour</h2>
+			<p class="from__text --modal-form__text">You can leave your questions here and our manager will call you back within 10 minutes</p>
+			<div>
+		<label class="label">
+		<input class="input modal__input-js" type="text" name="name"  placeholder="Your name *" >
+		<span class="error__message"></span>
+	</label>
+	<label class="label">
+		<input class="input modal__input-js" id="phone"  type="text" name="phone"  placeholder="Phone number *" >
+		<span class="error__message"></span>
+	</label>
+<label class="label__box">
+	<span class="checkBody">
+		<input class="check-input" type="checkbox"  value="Hoverla">
+		<span class="element"></span>
+
+	</span>
+	Ascent to Hoverla
+</label>
+<label class="label__box">
+	<span class="checkBody">
+		<input class="check-input" type="checkbox"  value="Bukovel">
+		<span class="element"></span>
+
+	</span>
+	Ski tour to Bukovel
+</label>
+<label class="label__box">
+	<span class="checkBody">
+		<input class="check-input" type="checkbox" value="Carpathian">
+		<span class="element"></span>
+
+	</span>
+	Week in Carpathians
+</label>
+</div>
+	<button type="submit" class="button --stratch">CALL ME</button>
+	<button type="button" class="close__modal">
+		<svg class="close__icon">
+			<use href="/img/icons/icons.svg#close"></use>
+		</svg>
+		
+	</button>
+	</form>
+	
+</div>
+	<div class="backdropSLide">
+<div class="backdropSLide__container">
+<ul class="slideModal slideModel-slider sl">
+	
+</ul>
+<button class="close__modal --icon-position close__modalSlider">
+	<svg class="close__icon --icon-size">
+		<use href="/img/icons/icons.svg#close-white"></use>
+	</svg>
+	
+</button>
+<div class="sliderModal__box">
+	<div class="sliderMoadl__book">
+		<p class="upcoming__price --text__center --mod-sliderModal__text"></p>
+		<button class="button --stratch --slideModal__disable-stratch modal__book-js">BOOK A TOUR</button>
+	</div>
+
+</div>
+</div>
+</div>
+	<div class="bookModal">
+	<form class="form --modal-form book-modal__js">
+		<h2 class="form__title">Book a tour</h2>
+			<p class="from__text --modal-form__text bookTextContainer"></p>
+			<div>
+		<label class="label">
+		<input class="input modal__input-js" type="text" name="name"  placeholder="Your name *" >
+		<span class="error__message"></span>
+	</label>
+	<label class="label">
+		<input class="input modal__input-js" id="phone"  type="text" name="phone"  placeholder="Phone number *" >
+		<span class="error__message"></span>
+	</label>
+
+</div>
+	<button type="submit" class="button --stratch">CALL ME</button>
+	<button class="close__modal close__bookModal">
+		<svg class="close__icon">
+			<use href="/img/icons/icons.svg#close"></use>
+		</svg>
+		
+	</button>
+	</form>
+</div>
+
+    <div class="wrapper">
+      <div class="content">
+        <div class="hd-container">
+<div class="main-background">
+<div class="header" id="header">
+  <div class="header__container container">
+	<div class="logo header-logo">
+		<img src="/img/icons/icons.svg#logo" alt="logo">
+
+	
+    </div>
+    <div class="header__burger burger-header">
+      <span></span>
+    </div>
+    <nav class="menu__body">
+      <ul class="menu__list">
+        <li class="menu__item">
+			
+          <a href="#about" class="menu__link ">About us</a>
+        </li>
+        <li class="menu__item">
+          <a href="#tour" class="menu__link ">Tours</a>
+        </li>
+        <li class="menu__item">
+          <a href="#reviews" class="menu__link ">Reviews</a>
+        </li>
+		  <li class="menu__item">
+			<a href="#gallery" class="menu__link ">Gallery</a>
+		 </li>
+		 <li class="menu__item">
+			
+			<a href="#contacts" class="menu__link ">Contacts</a>
+		 </li>
+      </ul>
+		<ul class="social-nav__list --social-mob__list">
+			<li class="social-nav__item">
+				<a class="social-nav__link" href="https://web.telegram.org/a/">
+					<svg class="social-nav__icon">
+						<use class="nav-icon" href="img/icons/icons.svg#telegram"></use>
+					</svg>
+				</a>
+			</li>
+			<li class="social-nav__item">
+				<a class="social-nav__link" href="https://www.instagram.com/">
+					<svg class="social-nav__icon">
+						<use class="nav-icon" href="img/icons/icons.svg#instargam"></use>
+					</svg>
+				</a>
+			</li>
+			<li class="social-nav__item">
+				<a class="social-nav__link" href="https://uk-ua.facebook.com/">
+					<svg class="social-nav__icon">
+						<use class="nav-icon" href="img/icons/icons.svg#facebook"></use>
+					</svg>
+				</a>
+			</li>
+		 </ul>
+    </nav>
+
+  </div>
+</div>
+<div class="hero hero-js">
+	<div class="hero__container container">
+		<h1 class="hero__title">TOURS TO <br class="title__space">THE CARPATHIANS FROM LVIV</h1>
+		<h3 class="hero__text">Journeys to the very heart of the Carpathians for those who want a real reboot</h3>
+		<button class="button --big --middle --small open-modal-js">BOOK A TOUR</button>
+		<ul class="social-nav__list --social-deskTop__list">
+			<li class="social-nav__item">
+				<a class="social-nav__link" href="https://web.telegram.org/a/">
+					<svg class="social-nav__icon">
+						<use class="nav-icon" href="img/icons/icons.svg#telegram"></use>
+					</svg>
+				</a>
+			</li>
+			<li class="social-nav__item">
+				<a class="social-nav__link" href="https://www.instagram.com/">
+					<svg class="social-nav__icon">
+						<use class="nav-icon" href="img/icons/icons.svg#instargam"></use>
+					</svg>
+				</a>
+			</li>
+			<li class="social-nav__item">
+				<a class="social-nav__link" href="https://uk-ua.facebook.com/">
+					<svg class="social-nav__icon">
+						<use class="nav-icon" href="img/icons/icons.svg#facebook"></use>
+					</svg>
+				</a>
+			</li>
+		 </ul>
+	</div>
+
+</div>
+</div>
+</div>
+
+        <main class="page page-home">
+			
+<div class="section" id="about">
+	<div class="aboutus__container container">
+		<h2 class="title aboutus__title">
+			About us
+		</h2>
+		<p class="text text__aboutus">Travel is our life. We have been organizing tours to the Carpathians since 2007 
+			and have never been bored for a single day. The Carpathians are many interesting 
+			and unexplored places that are worth visiting and showing them to others.<br>
+			Coming to the Carpathians will make you forget about the polluted, noisy world 
+			and enjoy untouched nature. From picturesque forests to clean rivers and lakes 
+			and Carpathian streams between the mountains, which offer magical landscapes and 
+			allow you to forget about all problems and unnecessary thoughts.</p>
+	</div>
+</div>
+			<div class="section">
+	<div class="advantages__container container">
+		<h2 class="title advantages__title">
+			Our advantages
+		</h2>
+		<ul class="advantages__list">
+			<li class="advantages__item">
+				<img class="advantag__icon" src="img/icons/icons.svg#star" alt="star">
+				<p>author's tours</p>
+			</li>
+			<li class="advantages__item">
+				<img class="advantag__icon" src="img/icons/icons.svg#star" alt="star">
+				<p>іndividual approach</p>
+			</li>
+			<li class="advantages__item">
+				<img class="advantag__icon" src="img/icons/icons.svg#star" alt="star">
+				<p>comfortable transfer</p>
+			</li>
+			<li class="advantages__item">
+				<img class="advantag__icon" src="img/icons/icons.svg#star" alt="star">
+				<p>affordable prices</p>
+			</li>
+			<li class="advantages__item">
+				<img class="advantag__icon" src="img/icons/icons.svg#star" alt="star">
+				<p>professional guides</p>
+			</li>
+			<li class="advantages__item">
+				<img class="advantag__icon" src="img/icons/icons.svg#star" alt="star">
+				<p>accommodation in hotels from 3+ *</p>
+			</li>
+		</ul>
+
+	</div>
+</div>
+			
+<div class="section" id="tour">
+	<div class="upcoming__container container">
+		<h2 class="title ">
+			Upcoming tours
+		</h2>
+		<ul class="upcoming__list upcoming-slider">
+		</ul>
+		<div class="upcoming__controls">
+
+		</div>
+	
+	</div>
+</div>
+			 
+<div class="section" id="reviews">
+	<div class="reviews__container container">
+		<h2 class="title ">
+			Reviews
+		</h2>
+		<ul class="reviews__list reviews-slider">
+
+		</ul>
+
+	
+	</div>
+</div>
+
+
+			 <div class="section" id="gallery">
+	
+	<div class="gallery__container container">
+		<h2 class="title ">
+			Gallery
+		</h2>
+		<ul class="gallery__list gallery-slider">
+		</ul>
+		<div class="gallery__controls">
+		
+		</div>
+	
+	</div>
+</div>
+			 
+<div class="before-footer">
+	<div class="container">
+		<div class="form__body">
+			
+	<form class="form form-js">
+		<h2 class="form__title">Do you have any questions?</h2>
+			<p class="from__text">You can leave your questions here and our manager will call you back within 10 minutes</p>
+			<div>
+		<label class="label">
+		<input data-id="1" class="input footer__input-js" id="name" type="text" name="name" placeholder="Your name *" >
+		<span class="error__message"></span>
+	</label>
+	<label class="label">
+		<input data-id="2" class="input footer__input-js" id="phone"  type="phone" name="phone" placeholder="Phone number *" >
+		<span class="error__message"></span>
+	</label>
+	<label class="label">
+		<input data-id="3" class="input footer__input-js" id="message"  type="text" name="message" placeholder="What would you like to know?" >
+		<span class="error__message"></span>
+	</label>
+</div>
+	<button type="submit" class="button --stratch">CALL ME</button>
+	</form>
+</div>
+</div>
+</div>
+
+
+        </main>
+      </div>
+      
+<div class="footer" id="contacts">
+	<div class="footer__container container">
+		<h2 class="title foter__title">
+			Contacts
+		</h2>
+		<div>
+	<ul class="footer-contacts__list">
+		<li class="footer-contacts__item">
+			<svg class="footer-contacts__icon">
+				<use href="img/icons/icons.svg#location"></use>
+			</svg>
+			<a class="footer-contacts__link" href="https://maps.app.goo.gl/heLwxsseakhaSS536">Lviv, st Dorosheko, 44 k</a>
+		</li>
+		<li class="footer-contacts__item">
+			<svg class="footer-contacts__icon">
+				<use href="img/icons/icons.svg#phone"></use>
+			</svg>
+			<a class="footer-contacts__link" href="tel:+380971626790">+38 (097) 162 -67-90</a>
+		</li>
+		<li class="footer-contacts__item">
+			<svg class="footer-contacts__icon">
+				<use href="img/icons/icons.svg#email"></use>
+			</svg>
+			<a class="footer-contacts__link" href="mailto:mandrykarpaty@gmail.com">mandrykarpaty@gmail.com</a>
+		</li>
+	</ul>
+	<ul class="social-nav__list --social-mob__footer">
+		<li class="social-nav__item --social-mob__footer-item">
+			<a class="social-nav__link" href="https://web.telegram.org/a/">
+				<svg class="social-nav__icon">
+					<use class="nav-icon" href="img/icons/icons.svg#telegram"></use>
+				</svg>
+			</a>
+		</li>
+		<li class="social-nav__item --social-mob__footer-item">
+			<a class="social-nav__link" href="https://www.instagram.com/">
+				<svg class="social-nav__icon">
+					<use class="nav-icon" href="img/icons/icons.svg#instargam"></use>
+				</svg>
+			</a>
+		</li>
+		<li class="social-nav__item --social-mob__footer-item">
+			<a class="social-nav__link" href="https://uk-ua.facebook.com/">
+				<svg class="social-nav__icon">
+					<use class="nav-icon" href="img/icons/icons.svg#facebook"></use>
+				</svg>
+			</a>
+		</li>
+	 </ul>
+	</div>
+
+	</div>
+	<div class="footer-tm">
+		<svg class="footer-tm__icon">
+			<use href="img/icons/icons.svg#tm"></use>
+		</svg>
+		<p class="foote-tm__text">Created by LelekaSoft</p>
+	 </div>
+</div>
+
+		<div class="back-up">
+			<a href="#header" class="back-up__link">
+				<svg class="back-up__icon">
+					<use href="img/icons/icons.svg#arrow"></use>
+				</svg>
+			</a>
+		 </div>
+    </div>
+
+
+    <script src="js/app.min.js?_v=20231014181024"></script>
+  </body>
+</html>
