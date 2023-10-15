@@ -65,6 +65,7 @@ body.lock {
 }
 
 .logo img {
+  fill: white;
   width: 40px;
   height: 40px;
 }
@@ -159,7 +160,7 @@ body.lock {
 
 .--stratch {
   width: 100%;
-  padding: 15px 0px;
+  padding: 15px 0px !important;
   position: relative;
   z-index: 100;
 }
@@ -661,13 +662,16 @@ h6 {
 .main-background {
   position: relative;
   background: url("../img/background.jpg");
-  padding-top: 180px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 788px;
-  height: 100vh;
+  padding-top: 180px !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  min-height: 788px !important;
+  height: 100vh !important;
   opacity: 0;
+  min-height: 975px !important;
+  height: 100vh !important;
+  padding-top: 280px !important;
 }
 
 .main-background.active {
@@ -746,9 +750,9 @@ h6 {
 
 .advantages__list {
   margin-top: 28px;
-  background: url("../../img/adv-mob_1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url("../img/adv-mob_1.jpg");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
   padding-top: 87px;
   min-height: 554px;
   height: 100%;
@@ -1000,6 +1004,7 @@ h6 {
   pointer-events: none;
   width: 32px;
   height: 32px;
+  fill: #5B86A1;
 }
 
 .gallery__container {
@@ -1106,9 +1111,9 @@ h6 {
 }
 
 .before-footer {
-  background: url("../../img/beforeFooterBg-mobile_1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url("../img/beforeFooterBg-mobile_1.jpg");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
   min-height: 632px;
 }
 
@@ -1510,8 +1515,8 @@ h6 {
   }
 
   .main-background {
-    min-height: 818px;
-    height: 100vh;
+    min-height: 818px !important;
+    height: 100vh !important;
   }
 
   .section {
@@ -1523,10 +1528,11 @@ h6 {
   }
 
   .advantages__list {
-    background: url("../../img/adv-tab_1.jpg") left top, url("../../img/adv-tab_2.jpg") right bottom;
-    background-repeat: no-repeat;
-    min-height: 640px;
-    height: 100%;
+    background: url("../img/adv-tab_1.jpg") left top, url("../img/adv-tab_2.jpg") right bottom;
+    background-repeat: no-repeat !important;
+    background-size: 354px !important;
+    min-height: 640px !important;
+    height: 100% !important;
   }
 
   .advantages__item p {
@@ -1611,9 +1617,9 @@ h6 {
 
   .before-footer {
     padding: 88px 145px;
-    background: url("../../img/beforeFooterBg-tablet_1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("../img/beforeFooterBg-tablet_1.jpg");
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
   }
 
   .form {
@@ -1760,7 +1766,6 @@ h6 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    position: absolute;
     bottom: -120px;
     right: 0;
   }
@@ -1803,9 +1808,9 @@ h6 {
   }
 
   .main-background {
-    min-height: 1024px;
-    height: 100vh;
-    padding-top: 280px;
+    min-height: 1024px !important;
+    height: 100vh !important;
+    padding-top: 280px !important;
   }
 
   .header__container {
@@ -1818,10 +1823,11 @@ h6 {
   }
 
   .advantages__list {
-    background: url("../../img/adv-desk_3.jpg") left top, url("../../img/adv-desk_1.jpg") center/377px 500px, url("../../img/adv-desk_2.jpg") right bottom;
-    background-repeat: no-repeat;
-    min-height: 675px;
-    height: 100%;
+    background: url("../img/adv-desk_3.jpg") left top, url("../img/adv-desk_1.jpg") center/377px 500px, url("../img/adv-desk_2.jpg") right bottom;
+    background-repeat: no-repeat !important;
+    min-height: 675px !important;
+    background-size: 377px !important;
+    height: 100% !important;
   }
 
   .advantages__item p {
@@ -1887,13 +1893,13 @@ h6 {
 
   .before-footer {
     padding: 88px 145px;
-    background: url("../../img/beforeFooterBg-desk_1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 1920px;
-    min-height: 1074px;
-    margin: 0 auto;
-    padding: 244px 133px;
+    background: url("../img/beforeFooterBg-desk_1.jpg");
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    max-width: 1920px !important;
+    min-height: 1074px !important;
+    margin: 0 auto !important;
+    padding: 244px 133px !important;
   }
 
   .form {
@@ -1924,15 +1930,12 @@ h6 {
 
 @media screen and (min-width: 1440px) {
   .main-background {
-    max-width: 1920px;
-    margin: 0 auto;
+    max-width: 1920px !important;
+    margin: 0 auto !important;
     background: url("../img/bac2.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-    min-height: 975px;
-    height: 100vh;
-    padding-top: 280px;
+    background-repeat: no-repeat !important;
+    background-position: center top !important;
+    background-size: cover !important;
   }
 }
 
@@ -1957,23 +1960,23 @@ h6 {
 
 .webp .main-background{ background: url(../img/background.webp); }
 
-.webp .advantages__list{ background: url(../../img/adv-mob_1.webp); }
+.webp .advantages__list{ background: url(../img/adv-mob_1.webp); }
 
-.webp .before-footer{ background: url(../../img/beforeFooterBg-mobile_1.webp); }
+.webp .before-footer{ background: url(../img/beforeFooterBg-mobile_1.webp); }
 
 @media screen and (min-width: 768px){
 
-  .webp .advantages__list{ background: url(../../img/adv-tab_1.webp) left top, url(../../img/adv-tab_2.webp) right bottom; }
+  .webp .advantages__list{ background: url(../img/adv-tab_1.webp) left top, url(../img/adv-tab_2.webp) right bottom; }
 }
 
 @media screen and (min-width: 768px){
 
-  .webp .before-footer{ background: url(../../img/beforeFooterBg-tablet_1.webp); }
+  .webp .before-footer{ background: url(../img/beforeFooterBg-tablet_1.webp); }
 }
 
 @media screen and (min-width: 1200px){
 
-  .webp .advantages__list{ background: url(../../img/adv-desk_3.webp) left top, url(../../img/adv-desk_1.webp) center/377px 500px, url(../../img/adv-desk_2.webp) right bottom; }
+  .webp .advantages__list{ background: url(../img/adv-desk_3.webp) left top, url(../img/adv-desk_1.webp) center/377px 500px, url(../img/adv-desk_2.webp) right bottom; }
 }
 
 @media screen and (min-width: 1200px){
