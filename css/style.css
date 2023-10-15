@@ -225,6 +225,9 @@ body.lock {
   margin-bottom: 43px;
   height: 40px;
   position: static;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .--social-mob__footer-item:not(:last-child) {
@@ -669,9 +672,6 @@ h6 {
   min-height: 788px !important;
   height: 100vh !important;
   opacity: 0;
-  min-height: 975px !important;
-  height: 100vh !important;
-  padding-top: 280px !important;
 }
 
 .main-background.active {
@@ -846,7 +846,7 @@ h6 {
 }
 
 .upcoming__controls .slick-arrow.slick-prev {
-  background: url("/img/icons/icons.svg#arrow");
+  background: url("../img/icons/icons.svg#arrow");
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
@@ -856,7 +856,7 @@ h6 {
 }
 
 .upcoming__controls .slick-arrow.slick-prev.slick-disabled {
-  background: url("/img/icons/icons.svg#arrowDisabled");
+  background: url("../img/icons/icons.svg#arrowDisabled");
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
@@ -866,7 +866,7 @@ h6 {
 }
 
 .upcoming__controls .slick-arrow.slick-next {
-  background: url("/img/icons/icons.svg#arrow");
+  background: url("../img/icons/icons.svg#arrow");
   background-repeat: no-repeat;
   background-size: contain;
   margin-left: 40px;
@@ -874,7 +874,7 @@ h6 {
 }
 
 .upcoming__controls .slick-arrow.slick-next.slick-disabled {
-  background: url("/img/icons/icons.svg#arrowDisabled");
+  background: url("../img/icons/icons.svg#arrowDisabled");
   background-repeat: no-repeat;
   background-size: contain;
   z-index: 20;
@@ -1452,14 +1452,10 @@ h6 {
 
   .--social-mob__footer {
     margin-top: 40px;
-  }
-
-  .--social-mob__footer {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    margin-bottom: 63px;
+    position: static;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
   }
 
   .title {
@@ -1762,6 +1758,7 @@ h6 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    position: absolute;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1772,6 +1769,15 @@ h6 {
 
   .--social-mob__list {
     display: none;
+  }
+
+  .--social-mob__footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 63px;
+    position: static;
   }
 
   .title {
@@ -1936,6 +1942,9 @@ h6 {
     background-repeat: no-repeat !important;
     background-position: center top !important;
     background-size: cover !important;
+    min-height: 975px !important;
+    height: 100vh !important;
+    padding-top: 280px !important;
   }
 }
 
