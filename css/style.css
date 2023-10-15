@@ -1060,7 +1060,7 @@ h6 {
 }
 
 .gallery__controls .slick-arrow.slick-prev {
-  background: url("/img/icons/icons.svg#arrow");
+  background: url("../img/icons/icons.svg#arrow");
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
@@ -1070,7 +1070,7 @@ h6 {
 }
 
 .gallery__controls .slick-arrow.slick-prev.slick-disabled {
-  background: url("/img/icons/icons.svg#arrowDisabled");
+  background: url("../img/icons/icons.svg#arrowDisabled");
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
@@ -1080,7 +1080,7 @@ h6 {
 }
 
 .gallery__controls .slick-arrow.slick-next {
-  background: url("/img/icons/icons.svg#arrow");
+  background: url("../img/icons/icons.svg#arrow");
   background-repeat: no-repeat;
   background-size: contain;
   margin-left: 40px;
@@ -1088,7 +1088,7 @@ h6 {
 }
 
 .gallery__controls .slick-arrow.slick-next.slick-disabled {
-  background: url("/img/icons/icons.svg#arrowDisabled");
+  background: url("../img/icons/icons.svg#arrowDisabled");
   background-repeat: no-repeat;
   background-size: contain;
   z-index: 20;
